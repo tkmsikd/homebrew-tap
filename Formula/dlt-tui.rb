@@ -1,26 +1,26 @@
 class DltTui < Formula
   desc "Fast, keyboard-centric TUI viewer for Automotive DLT files"
   homepage "https://github.com/tkmsikd/dlt-tui"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.1.0/dlt-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "bfb56b79d132ff450950a250e55224228f31fbc20d4c54bb551b63285440ec20"
+      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.2.0/dlt-tui-aarch64-apple-darwin.tar.gz"
+      sha256 "e332fbf4b5177d43cc33220ce2e2b93514623823533c30fb276d648a8c2f95ac"
     else
-      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.1.0/dlt-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "700c3e9e32c2ce8608107ad22d807308d5402f6bf09e834f8c93e703bc8abcc2"
+      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.2.0/dlt-tui-x86_64-apple-darwin.tar.gz"
+      sha256 "8523717188e8cf567cd17916a630e33167683614f66beaa3dedc3e2abc6758fe"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.1.0/dlt-tui-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4f3c0230049effd3f10c73c610541bec5799005f2bf07f27e89910e2ddf08031"
+      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.2.0/dlt-tui-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0cfbd2c8175942d01c8a8e5aacac9ad5513858260de61f3b840e2009e2308781"
     else
-      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.1.0/dlt-tui-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c498051274cf51e887544d6a965340baae5b90a2fcef8b3af3cc28f1b38ca77e"
+      url "https://github.com/tkmsikd/dlt-tui/releases/download/v1.2.0/dlt-tui-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e00302d3a93353d91949d2f4ad4f25b282cd33e64cb3e774aac9191a98834289"
     end
   end
 
